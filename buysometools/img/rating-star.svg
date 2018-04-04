@@ -1,0 +1,19 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4111">
+   <stop id="stop4112" offset="0" stop-color="#e6da1e"/>
+   <stop id="stop4113" offset="1" stop-color="#7d760f"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1918">
+   <stop id="stop1919" offset="0" stop-opacity="0.313725" stop-color="#000000"/>
+   <stop id="stop1921" offset="1" stop-opacity="0" stop-color="#000000"/>
+  </linearGradient>
+  <radialGradient cx="0.5" cy="0.5" fx="0.505882" fy="0.5" id="radialGradient1502" r="0.5" xlink:href="#linearGradient1918"/>
+  <linearGradient id="linearGradient2312" x1="0.543555" x2="0.360953" xlink:href="#linearGradient4111" y1="1.136533" y2="0.042242"/>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path d="m28.75239,26.79097a13.83037,2.99862 0 1 0 -27.66073,0a13.83037,2.99862 0 1 0 27.66073,0z" id="path1934" stroke-width="1.0000000pt" fill-rule="evenodd" fill="url(#radialGradient1502)"/>
+  <polygon id="polygon3715" points="290.7760009765625,291.77699279785156 227.9469985961914,257.343994140625 165.37080001831055,292.2239990234375 179.12129974365234,222.58100128173828 126.18873000144958,174.59490203857422 197.51580047607422,165.98690032958984 227.37899780273438,101.4502100944519 257.71099853515625,165.77279663085938 329.0989990234375,173.8727035522461 276.51800537109375,222.23500061035156 290.7760009765625,291.77699279785156 " stroke-width="25" stroke="#04bcf9" fill-rule="evenodd" fill="#ffffff"/>
+ </g>
+</svg>

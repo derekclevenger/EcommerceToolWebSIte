@@ -1,0 +1,11 @@
+<?
+session_start();
+require_once("securitycheck.php");
+if($userObject)
+{
+  header("location:customer-account.php");
+}
+else
+  header("location:register.php");
+  exit();
+?>

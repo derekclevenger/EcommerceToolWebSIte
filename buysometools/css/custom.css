@@ -1,0 +1,394 @@
+/** Your theme modifications here **/
+#basket-contents {
+	background-color: white;
+	width: 280px;
+	position: absolute;
+  float:left;
+	top: 55px;
+  right:5px;
+	border: 1px solid black;
+	padding: 12px;
+  z-index:15;
+
+}
+
+
+#basket-contents img {
+  width:50px;
+}
+
+#basket-contents td
+{
+  width:30px;
+  padding:0px;
+}
+#buggy-count
+{
+  width:55px;
+}
+#footer h4
+{
+  padding-left:25px;
+
+}
+#footer li
+{
+  padding-left:25px;
+}
+#footer p
+{
+  padding-left:25px;
+}
+#get-inspired img
+{
+	width:100% auto;
+}
+
+h2 > img
+{
+
+	width:3%;
+		padding-bottom:10px;
+}
+
+.item
+{
+	height: 30%;
+
+}
+
+.invalid{
+border:1px solid #4993e4;
+}
+
+
+.error
+{
+	color:#4993e4;
+}
+body
+{
+	background-color:#DCDCDC;
+}
+
+
+
+.gototop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.gototop.active {
+  opacity: .75;
+  visibility: visible;
+
+}
+.gototop a {
+  width: 50px;
+  height: 50px;
+  display: table;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+}
+.gototop a i {
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.gototop a:hover, .gototop a:active, .gototop a:focus {
+  text-decoration: none;
+  outline: none;
+}
+.icon-arrow-up::before {
+    content: "^";
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+.gototop a i {
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: "icomoon" !important;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+}
+* {
+    box-sizing: border-box;
+}
+*::-moz-selection {
+    background: #cabcab none repeat scroll 0 0;
+    color: #fff;
+}
+
+#products{
+margin-bottom:20px;
+}
+#products  img {
+	width:175px;
+margin-right:-20px;
+clear:right;
+}
+#products td
+{
+	border-bottom:1px solid black;
+	padding-bottom:10px;
+
+}
+
+.img-responsive
+{
+	width:100% ;
+	height:auto;
+}
+
+/*
+keeping this here.  it goes in header above subcat and cat
+echo "<div class='col-sm-12'>
+				<ul >";
+echo "</ul></div>";
+
+<div class='col-sm-6 id =  $counter '>
+<ul class = >";
+echo "</ul>";
+
+*/
+
+.subcat{
+	text-decoration:underline;
+
+
+display:inline;
+
+
+}
+.category{
+	font-weight:bold;
+
+}
+@media(min-width:1200px){
+	.dropdown-menu{
+		width:25%;
+		margin-left:20%;
+	}
+}
+
+@media(min-width:900px){
+.category > .subcat {
+    display: none;
+}
+.category:hover > .subcat {
+    display: block;
+
+}
+.subcat{
+	padding-right:40px;
+}
+
+#pushdown
+{
+	padding-bottom:20px;
+	margin-bottom:290px;
+}
+
+
+}
+#right{
+	padding-right:0;
+	text-align:right;
+}
+#left
+{
+	padding-left:0;
+	text-align:left;
+}
+#headleft
+{
+	padding-left:0;
+	text-align:left;
+}
+#review-box
+{
+	padding-top:25px;
+}
+#review-button
+{
+	padding-top:20px;
+	align-items:center;
+}
+
+.codexworld_rating_widget{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.codexworld_rating_widget li{
+    line-height: 0px;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 2px;
+    list-style: none;
+    float: left;
+    cursor: pointer;
+}
+.codexworld_rating_widget li span{
+    display: none;
+}
+
+.center
+{
+	text-align:center;
+
+}
+
+#reviews th
+{
+	text-align:center;
+}
+#reviews td {
+	text-align:center;
+}
+
+#details
+{
+	margin-top:40px;
+}
+.dataTables_filter
+{
+	display:none;
+}
+.rating
+{
+	padding-left:35px;
+	padding-top:15px;
+	padding-bottom:15px;
+
+}
+#quantity
+{
+	width:60px;
+	margin:auto;
+}
+.hiderow {
+    display: none;
+}
+
+tfoot tr th
+{
+	font-weight:normal;
+}
+
+#products img
+{
+
+	z-index:-10;
+}
+.quickview
+{
+	margin-left:45px;
+	padding-top:5px;
+}
+
+.move-right
+{
+	padding-left:35px;
+}
+
+
+@media(max-width:900px){
+#cart-table
+{
+	width:100%;
+
+	border:none;
+
+}
+}
+
+/* Not Need */
+@import url(http://fonts.googleapis.com/css?family=Roboto:500);
+
+
+
+/* Basic Style */
+.form-group {
+    position: relative;
+}
+.form-group [data-toggle="floatLabel"] {
+    height: 44px;
+    padding-top: 16px;
+}
+.form-group [data-toggle="floatLabel"] + label {
+    font-size: 12px;
+	left: 12px;
+	opacity: 1;
+	position: absolute;
+	top: 3px;
+	transition: all 0.3s ease-in-out;
+}
+.form-group [data-toggle="floatLabel"]:required + label {
+    color: rgb(255, 0, 0);
+}
+
+/* Custom Styles */
+.form-group.form-group-textarea {
+    background-color: rgb(255, 255, 255);
+	border-radius: 1px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	margin: 20px 15px ;
+	padding: 10px 0px 2px;
+	position: relative;
+}
+.form-group.form-group-textarea textarea {
+    height: 34px;
+	resize: none;
+}
+.form-group.form-group-textarea label {
+    color: rgb(160, 160, 160);
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+}
+.form-group.form-group-textarea .form-control {
+    border-radius: 0px;
+	border-width: 0px;
+	box-shadow: none;
+}
+.form-group.form-group-textarea [data-toggle="floatLabel"] + label {
+	top: 5px;
+}
+
+/* Positioning */
+.form-group [data-toggle="floatLabel"][data-value=""] {
+    padding-top: 6px;
+}
+.form-group [data-toggle="floatLabel"][data-value=""] + label {
+	opacity: 0;
+	top: 18px;
+}
+
+#checkout
+{
+	margin-bottom:150px;
+}
